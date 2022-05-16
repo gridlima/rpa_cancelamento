@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[10]:
 
 
 from selenium import webdriver
@@ -84,8 +81,6 @@ x=1
 while (x>=1):
         loop()
 
-
-# In[ ]:
 
 
 
