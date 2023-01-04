@@ -23,14 +23,14 @@ search = driver.find_element_by_id("loginButton")
 time.sleep(1)
 pyautogui.press('enter')
 
-#TAKS - COMPONENTES
+#TAKS - COMPONENTES DO SISTEMA CONECTA
 
 time.sleep(2)
 driver.get("https://mrologistics.softexpert.com/se/v54815/generic/gn_defaultframe/2.0/defaultframe_opener.php?oid=menu,10,160,-1,-1")
 time.sleep(2)
 search = driver.find_element_by_id("sewbutton-1042-btnInnerEl").click()
 time.sleep(2)
-pyautogui.write('PR-SMS-029')
+pyautogui.write('PR-SMS-029') #tipo de inspeção que será cancelada
 pyautogui.press('enter')
 pyautogui.press('tab')
 pyautogui.press('tab')
@@ -49,13 +49,13 @@ pyautogui.press('right')
 time.sleep(1)
 pyautogui.press('tab')
 time.sleep(1)
-pyautogui.write('Contrato Colombia encerrado')
+pyautogui.write('Contrato Colombia encerrado') #mensagem na cx de texto
 pyautogui.press('tab')
 pyautogui.press('enter')
 time.sleep(2)
     
 
-#TASK - LOOPING
+#TASK - LOOPING QUE NÃO DEU
 
 def loop():
     
